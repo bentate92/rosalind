@@ -1,6 +1,14 @@
-r = open('rosalind_gc.txt')
-data = r.readlines()
-r.close()
+#r = open('rosalind_gc.txt')
+#data = r.readlines()
+#r.close()
+
+#OR
+
+# cat data5.txt | python problem5.py
+# Pipe the contents of data5.txt into your program
+
+import sys
+data = sys.stdin.readlines()
 
 samples = {}
 current = ""

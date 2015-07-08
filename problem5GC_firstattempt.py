@@ -4,10 +4,6 @@
 import sys
 data = sys.stdin.readlines()
 
-data.join('')
-
-print data
-
 # Preprocess data
 inputs = []
 r = range(0, len(data))
