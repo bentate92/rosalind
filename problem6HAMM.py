@@ -3,7 +3,7 @@ t = "CTTTAAAGGCTGTACTCCCAATTTAGGTTAAGTCGTGCCCTGCTATTTCCTAGCCCCAATATTTCCCGAGTGAGC
 
 dH = 0
 
-assert len(s) == len(t)
+#assert len(s) == len(t)
 
 for i in range(0, len(s)):
 	if s[i] != t[i]:
