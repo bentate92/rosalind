@@ -3,5 +3,6 @@
 import sys
 data = sys.stdin.readlines()
 
+
 strings = {}
 current = ""
